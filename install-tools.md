@@ -32,9 +32,6 @@ choco install intellijidea-community -y
 ```
 choco install vscode -y
 ```
-```
-choco install sublimetext3.app -y
-```
 
 # MacOS Tools
 
