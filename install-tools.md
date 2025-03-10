@@ -9,10 +9,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 ```
-choco install virtualbox --version=7.0.8 -y
+choco install virtualbox -y
 ```
 ```
-choco install vagrant --version=2.3.4 -y
+choco install vagrant -y
 ```
 ```
 choco install git -y
