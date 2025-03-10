@@ -5,6 +5,10 @@ Install chocolatey from the instructions given in the link below.
 https://chocolatey.org/docs/installation
 
 ```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+```
 choco install virtualbox --version=7.0.8 -y
 ```
 ```
